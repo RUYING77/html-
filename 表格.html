@@ -1,0 +1,29 @@
+<html>
+    <head><title>表格</title></head>
+    <body>
+        <!--2x3表格-->
+        <table border=1>
+            <tr><td>1</td><td>2</td><td>3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+        
+        <!--colspan-->
+        <table border=1>
+            <tr><td>1</td><td colspan=2>2 3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+        
+        <!--rowspan-->
+        <table border=1>
+            <tr><td rowspan=2>1 4</td><td>2</td><td>3</td></tr>
+            <tr>                      <td>5</td><td>6</td></tr>
+        </table>
+        
+         <!--3x3表格-->
+         <table border=1>
+            <tr><td>1</td><td colspan=2 rowspan=2>2 3 5 6</td></tr>
+            <tr><td>4</td>                                    </tr>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+        </table>
+    </body>
+</html>
